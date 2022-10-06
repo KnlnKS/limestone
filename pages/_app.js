@@ -2,7 +2,7 @@ import "../styles/globals.css";
 
 import { ChakraProvider } from "@chakra-ui/react";
 
-import Navbar from "../components/Navbar";
+import Navbar from "../src/components/Navbar";
 import theme from "../src/data/theme";
 import navItems from "../src/data/navItems";
 
