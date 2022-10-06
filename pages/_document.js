@@ -9,7 +9,6 @@ export default function Document() {
           name="viewport"
           content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
         />
-        <title>Limestone Capital - Investment Club</title>
         <meta name="title" content="Limestone Capital - Investment Club" />
         <meta
           name="description"
