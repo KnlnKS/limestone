@@ -40,5 +40,6 @@ This folder contains source files. These files are used for React applications a
     ├── ...
     ├── src                     # Source files
     │   ├── components          # React components
-    │   └── logic               # Business logic
+    │   ├── logic               # Business logic
+    │   └── data                # Data files
     └── ...
