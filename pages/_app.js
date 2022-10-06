@@ -2,22 +2,17 @@ import "../styles/globals.css";
 
 import { ChakraProvider } from "@chakra-ui/react";
 
-import { extendTheme } from "@chakra-ui/react";
-
-const theme = extendTheme({
-  brand: {
-    100: "#ed7d31",
-    200: "#7f7f7f",
-    300: "#f79646",
-    400: "#984807",
-    500: "#d9d9d9",
-  },
-});
+import Navbar from "../components/Navbar";
+import theme from "../src/data/theme";
+import navItems from "../src/data/navItems";
 
 function MyApp({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
-      <Component {...pageProps} />
+      <fonts>
+        <Navbar navItems={navItems} />
+        <Component {...pageProps} />
+      </fonts>
     </ChakraProvider>
   );
 }
