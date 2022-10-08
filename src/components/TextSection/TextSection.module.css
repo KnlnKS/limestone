@@ -1,77 +1,49 @@
-.mainEntryLeft {
-    background-color: white;
-    min-height: 25vh;
-    display: flex;
-    flex-direction: row;
-    /* align-items: flex-start; */
-    justify-content: space-between;
-    color: #db5b11;
-    padding: 3%;
-
-    /*To Remove*/
-    /* border: 2px solid #a10e0e; */
+.alignWrapper {
+  background-color: white;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #db5b11;
+  padding: 3%;
 }
 
-.mainEntryRight {
-    background-color: whitesmoke;
-    min-height: 25vh;
-    display: flex;
-    flex-direction: row;
-    /* align-items: flex-end; */
-    justify-content: space-between;
-    color: #db5b11;
-    padding: 3%;
-
-    /*To Remove*/
-    /* border: 2px solid #a10e0e; */
+.format {
+  max-width: 40vw;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-.mainEntryFormat {
-    max-width: 40vw;
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.title {
+  margin: 0%;
+  font-size: 3.5vw;
+  font-weight: bolder;
 }
 
-.mainEntryTitleLeft {
-    margin: 0%;
-    font-size: 3.5vw;
-    font-weight: bolder;
+.text {
+  margin: 0%;
+  margin-bottom: 2vh;
+  font-size: calc(10px + 1vmin);
+  overflow: hidden;
+  color: #6e2d07;
 }
 
-.mainEntryTitleRight {
-    margin: 0%;
-    font-size: 3.5vw;
-    font-weight: bolder;
-    text-align: end;
+.image {
+  margin: auto 0 auto 5%;
+  max-height: 25vh;
+  max-width: 50%;
 }
 
-.mainEntryTextLeft {
-    margin: 0%;
-    margin-bottom: 2vh;
-    font-size: calc(10px + 1vmin);
-    overflow: hidden;
-    color: #6e2d07;
+.textAlignRight {
+  text-align: end;
 }
 
-.mainEntryTextRight {
-    margin: 0%;
-    margin-bottom: 2vh;
-    font-size: calc(10px + 1vmin);
-    overflow: hidden;
-    text-align: end;
-    color: #6e2d07;
+.imageAlignRight {
+  margin: auto 5% auto 0;
 }
 
-.mainEntryImageLeft {
-    margin: auto 0 auto 5%;
-    max-height: 25vh;
-    max-width: 50%;
-}
-
-.mainEntryImageRight {
-    margin: auto 5% auto 0;
-    max-height: 25vh;
-    max-width: 50%;
+.bgRight {
+  background-color: whitesmoke;
 }

@@ -4,10 +4,10 @@ import Image from "next/image";
 
 function Homebanner() {
   return (
-    <div className={styles.mainPic}>
-      <div className={styles.mainPicSkylineWrapper}>
+    <div className={styles.pic}>
+      <div className={styles.skylineWrapper}>
         <Image
-          className={styles.mainPicSkyline}
+          className={styles.skyline}
           src={"/skyline.png"}
           alt="skyline"
           layout={"responsive"}
@@ -16,8 +16,8 @@ function Homebanner() {
         />
       </div>
       <header>
-        <p className={styles.mainPicTitle}>Limestone Capital</p>
-        <p className={styles.mainPicSubtitle}>
+        <p className={styles.title}>Limestone Capital</p>
+        <p className={styles.subtitle}>
           Canada’s leading value-oriented investment club. Ut cillum ex sit
           fugiat nulla aliqua mollit aliquip officia minim reprehenderit veniam
           deserunt veniam.
