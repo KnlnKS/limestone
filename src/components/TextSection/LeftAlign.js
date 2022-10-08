@@ -5,7 +5,6 @@ import { Button, Box } from "@chakra-ui/react";
 import Image from "next/image";
 
 function LeftAlign({ title, text, imgSrc, imgAlt }) {
-  console.log(imgSrc);
   return (
     <div className={styles.alignWrapper}>
       <div className={styles.format}>
