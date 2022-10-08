@@ -1,15 +1,20 @@
-import "bootstrap/dist/css/bootstrap.css";
 import "../styles/globals.css";
 
-function MyApp({ Component, pageProps }) {
-  /*
-  // Uncomment this if you need to use interactive Bootstrap components
-  useEffect(() => {
-    import('bootstrap/dist/js/bootstrap');
-  }, []);
-  */
+import { ChakraProvider } from "@chakra-ui/react";
 
-  return <Component {...pageProps} />;
+import Navbar from "../src/components/Navbar";
+import theme from "../src/data/theme";
+import navItems from "../src/data/navItems";
+
+function MyApp({ Component, pageProps }) {
+  return (
+    <ChakraProvider theme={theme}>
+      <fonts>
+        <Navbar navItems={navItems} />
+        <Component {...pageProps} />
+      </fonts>
+    </ChakraProvider>
+  );
 }
 
 export default MyApp;
