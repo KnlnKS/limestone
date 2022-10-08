@@ -1,11 +1,14 @@
 import Head from "next/head";
 
+import Homebanner from "../src/components/Homebanner";
+
 export default function Home() {
   return (
-    <div>
+    <>
       <Head>
         <title>Limestone Capital</title>
       </Head>
-    </div>
+      <Homebanner />
+    </>
   );
 }
