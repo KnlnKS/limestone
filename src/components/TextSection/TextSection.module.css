@@ -18,7 +18,7 @@
 
 .title {
     margin: 0%;
-    font-size: 3.5vw;
+    font-size: calc(10px + 5vmin);
     font-weight: bolder;
     color: #493c31;
     font-family: Cormorant Garamond;
