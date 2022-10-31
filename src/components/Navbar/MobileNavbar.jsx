@@ -10,6 +10,7 @@ import {
   useTheme,
 } from "@chakra-ui/react";
 import { ChevronDownIcon } from "@chakra-ui/icons";
+import NextLink from "next/link";
 
 const MobileNavItem = ({ label, children, href }) => {
   const { isOpen, onToggle } = useDisclosure();
@@ -51,9 +52,9 @@ const MobileNavItem = ({ label, children, href }) => {
         >
           {children &&
             children.map((child) => (
-              <Link key={child.label} py={2} href={child.href}>
-                {child.label}
-              </Link>
+              <NextLink key={child.label} href={child.href ?? "#"} passHref>
+                <Link py={2}>{child.label}</Link>
+              </NextLink>
             ))}
         </Stack>
       </Collapse>
