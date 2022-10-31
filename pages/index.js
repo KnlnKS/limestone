@@ -8,7 +8,15 @@ import homePageContent from "../src/data/homePageContent";
 const Align = ({ content }) =>
   content.map(({ title, text, imgSrc, imgAlt }, index) => {
     const Align = TextSection[index % 2 === 0 ? "LeftAlign" : "RightAlign"];
-    return <Align key={index} title={title} text={text} imgSrc={imgSrc} imgAlt={imgAlt} />;
+    return (
+      <Align
+        key={index}
+        title={title}
+        text={text}
+        imgSrc={imgSrc}
+        imgAlt={imgAlt}
+      />
+    );
   });
 
 export default function Home() {

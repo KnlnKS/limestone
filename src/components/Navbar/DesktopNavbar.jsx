@@ -1,19 +1,20 @@
-import { Box, Stack, Link } from "@chakra-ui/react";
+import { Box, Stack, Link, useTheme } from "@chakra-ui/react";
 
 const DesktopNavbar = ({ navItems }) => {
+  const theme = useTheme();
   return (
     <Stack direction={"row"} spacing={4}>
       {navItems.map((navItem) => (
         <Box key={navItem.label}>
           <Link
-            p={2}
+            p={4}
             href={navItem.href ?? "#"}
-            fontSize={"lg"}
-            fontWeight={700}
-            color={"white"}
+            fontSize={"xl"}
+            fontWeight={"bold"}
+            color={theme.brand.off_white}
             _hover={{
               textDecoration: "none",
-              color: "gray.800",
+              color: "orange.300",
             }}
           >
             {navItem.label}

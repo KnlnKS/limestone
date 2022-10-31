@@ -1,11 +1,7 @@
 const navItems = [
   {
-    label: "About Us",
-    href: "#",
-  },
-  {
     label: "Alumni Placements",
-    href: "#",
+    href: "alumni",
   },
   {
     label: "Pitches & Reports",
@@ -13,10 +9,6 @@ const navItems = [
   },
   {
     label: "Team",
-    href: "#",
-  },
-  {
-    label: "Events",
     href: "#",
   },
   {

@@ -18,9 +18,8 @@ function Homebanner() {
       <header>
         <p className={styles.title}>Limestone Capital</p>
         <p className={styles.subtitle}>
-          Canada’s leading value-oriented investment club. Ut cillum ex sit
-          fugiat nulla aliqua mollit aliquip officia minim reprehenderit veniam
-          deserunt veniam.
+          Canada’s leading value-oriented investment club. Founded in 2011 at
+          Queen's University.
         </p>
       </header>
       <svg className={styles.arrows}>

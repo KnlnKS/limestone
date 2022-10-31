@@ -19,13 +19,15 @@ const Navbar = ({ navItems }) => {
   return (
     <Box>
       <Flex
-        bg={theme.brand.grey}
+        bg={theme.brand.light_brown}
         color={"white"}
         minH={"60px"}
         py={{ base: 2 }}
         px={{ base: 4 }}
         borderBottom={1}
         align={"center"}
+        fontFamily={"Cormorant Garamond"}
+        fontWeight={"normal"}
       >
         <Flex flex={{ base: 1 }} justify={"start"}>
           <Image
