@@ -2,7 +2,7 @@ import { extendTheme } from "@chakra-ui/react";
 
 const theme = extendTheme({
   fonts: {
-    body: `'Lato', sans-serif`,
+    body: `'Cormorant Garamond', sans-serif`,
   },
   brand: {
     orange: "#ed7d31",
