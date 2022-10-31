@@ -7,6 +7,7 @@ import {
   useTheme,
 } from "@chakra-ui/react";
 import Image from "next/image";
+import Link from 'next/link'
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 
 import DesktopNavbar from "./DesktopNavbar";
@@ -30,12 +31,15 @@ const Navbar = ({ navItems }) => {
         fontWeight={"normal"}
       >
         <Flex flex={{ base: 1 }} justify={"start"}>
-          <Image
-            src="/limestone_logo.png"
-            alt="Limestone Capital Logo"
-            width="110"
-            height="50"
-          />
+          <Link href="/">
+            <Image
+              src="/limestone_logo.png"
+              alt="Limestone Capital Logo"
+              width="110"
+              height="50"
+              style={{ cursor: "pointer" }}
+            />
+          </Link>
         </Flex>
 
         <Flex display={{ base: "none", md: "flex" }} ml={10}>
