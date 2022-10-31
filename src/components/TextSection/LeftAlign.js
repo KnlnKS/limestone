@@ -16,7 +16,7 @@ function LeftAlign({title, text, imgSrc, imgAlt}) {
                     </Button>
                 </Box>
             </div>
-            <div className={styles.image}>
+            <div className={styles.img}>
                 <Image src={imgSrc} alt={imgAlt} width={"500px"} height={"220px"} />
             </div>
         </div>

@@ -5,11 +5,8 @@ export default function Document() {
     <Html>
       <Head>
         <meta charSet="utf-8" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
-        />
         <meta name="title" content="Limestone Capital - Investment Club" />
+        <link rel="shortcut icon" href="favicon.png"></link>
         <meta
           name="description"
           content="Limestone Capital is a student-run investment club founded in 2011 at Queen’s University in Kingston, Ontario."

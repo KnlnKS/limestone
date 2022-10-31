@@ -19,7 +19,7 @@ function Homebanner() {
         <p className={styles.title}>Limestone Capital</p>
         <p className={styles.subtitle}>
           Canada’s leading value-oriented investment club. Founded in 2011 at
-          Queen's University.
+          Queen’s University.
         </p>
       </header>
       <svg className={styles.arrows}>
