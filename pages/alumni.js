@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Slideshow from "../src/components/Slideshow/Slideshow";
-import Testimonial from "../src/components/Testimonial/Testimonial";
+import Slideshow from "../src/components/Slideshow";
+import Testimonial from "../src/components/Testimonial";
 
 import { Container, Box, Heading, Text } from "@chakra-ui/react";
 
