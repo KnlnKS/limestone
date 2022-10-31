@@ -1,7 +1,7 @@
 const navItems = [
     {
         label: "Alumni Placements",
-        href: "#",
+        href: "alumni",
     },
     {
         label: "Pitches & Reports",

@@ -1,0 +1,25 @@
+.testimonial_container {
+    width: auto;
+    max-height: 20vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.container_right {
+    max-width: 20vw;
+    max-height: 100%;
+    padding-left: 1vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+
+.placement_name {
+    font-size: 2vw;
+    font-family: "Cormorant Garamond";
+    font-weight: bold;
+}
+
+.placement_desc {
+    text-overflow: inherit;
+}
