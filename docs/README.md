@@ -9,6 +9,7 @@ A website for Limestone Capital at Queens U. Expected to be deployed at https://
 -   Add mobile formatting for all pages
 -   Add page transitions
 -   Replace stock images and text entries once Marketing provides assets
+-   Add footer for all pages
 
 ### Current Issues:
 

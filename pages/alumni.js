@@ -11,11 +11,13 @@ export default function Alumni() {
                 <title>Limestone Capital</title>
             </Head>
             <Container
-                maxW={"80vw"}
-                padding="0"
-                max-height={"100vh"}
+                maxW={"100vw"}
+                paddingLeft="15vw"
+                paddingRight="15vw"
+                height={"full"}
                 display={"flex"}
                 flexDirection={"column"}
+                backgroundColor={"#EAE0C7"}
             >
                 <Box
                     width={"100%"}
@@ -28,7 +30,7 @@ export default function Alumni() {
                         size="3xl"
                         noOfLines={2}
                         fontFamily={"Cormorant Garamond"}
-                        color={"#ed7d31"}
+                        color={"#493c31"}
                         textAlign={"center"}
                     >
                         Limestone Capital has alumni across the world.
@@ -60,34 +62,55 @@ export default function Alumni() {
                     justifyContent={"flex-start"}
                     height={"25vh"}
                     marginTop={"5vh"}
-                    marginLeft={"7vw"}
-                    marginRight={"7vw"}
+                    marginLeft={"2vw"}
+                    marginRight={"-1vw"}
                     marginBottom={"2vh"}
                 >
                     <Box
-                        marginRight={"1vh"}
                         backgroundColor={"orange"}
                         height={"inherit"}
-                        width={"9px"}
-                        borderRadius={"20px"}
+                        width={"8px"}
+                        marginTop={"1vh"}
+                    ></Box>
+                    <Box
+                        marginRight={"1vh"}
+                        backgroundColor={"#DA7F08"}
+                        height={"inherit"}
+                        width={"6px"}
                         marginTop={"1vh"}
                     ></Box>
 
                     <Box display={"flex"} flexDirection={"column"} justifyContent={"flex-start"}>
                         <Text
-                            fontSize="2vw"
+                            fontSize="1.6vw"
                             fontFamily={"Cormorant Garamond"}
-                            color={"#493c31"}
+                            color={"black"}
                             textAlign={"start"}
                             fontWeight={"bold"}
+                            marginLeft={".3vw"}
                         >
                             Testimonials
                         </Text>
-                        <Box display={"flex"} flexDirection={"row"} justifyContent={"flex-between"}>
+                        <Box
+                            display={"flex"}
+                            flexDirection={"row"}
+                            justifyContent={"flex-between"}
+                            marginTop={"2vh"}
+                        >
                             <Testimonial></Testimonial>
                             <Testimonial></Testimonial>
                             <Testimonial></Testimonial>
                         </Box>
+                        {/* <Box
+                            display={"flex"}
+                            flexDirection={"row"}
+                            justifyContent={"flex-between"}
+                            marginTop={"10vh"}
+                        >
+                            <Testimonial></Testimonial>
+                            <Testimonial></Testimonial>
+                            <Testimonial></Testimonial>
+                        </Box> */}
                     </Box>
                 </Box>
             </Container>

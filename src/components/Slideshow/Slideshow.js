@@ -5,6 +5,7 @@ function Slideshow({title}) {
         <div className={styles.company_container}>
             <p className={styles.container_title}>{title}</p>
             <div className={styles.container_underline}></div>
+            <div className={styles.container_underline_low}></div>
             <div className={styles.slideshow}>
                 <div className={styles.mover}></div>
             </div>
