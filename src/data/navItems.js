@@ -1,24 +1,24 @@
 const navItems = [
-  {
-    label: "Alumni Placements",
-    href: "alumni",
-  },
-  {
-    label: "Pitches & Reports",
-    href: "#",
-  },
-  {
-    label: "Team",
-    href: "#",
-  },
-  {
-    label: "Education",
-    href: "#",
-  },
-  {
-    label: "Hiring",
-    href: "#",
-  },
+    {
+        label: "Alumni Placements",
+        href: "alumni",
+    },
+    {
+        label: "Team",
+        href: "#",
+    },
+    {
+        label: "Pitches & Reports",
+        href: "#",
+    },
+    {
+        label: "Education",
+        href: "#",
+    },
+    {
+        label: "Find Us",
+        href: "findus",
+    },
 ];
 
 export default navItems;

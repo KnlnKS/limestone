@@ -28,6 +28,7 @@
     margin: 0%;
     margin-bottom: 2vh;
     font-size: calc(10px + 1vmin);
+    font-weight: 600;
     overflow: hidden;
     color: #6e2d07;
 }
