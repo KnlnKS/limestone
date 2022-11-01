@@ -9,7 +9,7 @@ const navItems = [
     },
     {
         label: "Pitches & Reports",
-        href: "#",
+        href: "pitches-and-reports",
     },
     {
         label: "Education",
