@@ -30,11 +30,9 @@ function TeamMember({
         {role}
       </Text>
       <Flex mt={2}>
-        <a href={learnMoreURL}>
-          <Button as="a" bg="#ed7d31" color="white" size="sm">
-            Learn More
-          </Button>
-        </a>
+        <Button as="a" href={learnMoreURL} bg="#ed7d31" color="white" size="sm">
+          Learn More
+        </Button>
         {learnMoreURL && (linkedInURL || emailURL) && (
           <Ellipsis color="#984807" boxSize={8} dotSize={30} />
         )}
