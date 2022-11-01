@@ -6,7 +6,7 @@ import TeamSection from "../src/components/TeamSection";
 export default function Home() {
   const members = [
     {
-      imgSrc: "/Emma.png",
+      imgSrc: "/demo/Emma.png",
       imgAlt: "Emma",
       name: "Emma Andison",
       role: "Chief Executive Officer",
@@ -15,7 +15,7 @@ export default function Home() {
       emailURL: "mailto:emma@andison.com",
     },
     {
-      imgSrc: "/Devin.png",
+      imgSrc: "/demo/Devin.png",
       imgAlt: "Devin",
       name: "Devin Meng",
       role: "Chief Investment Officer",
@@ -24,7 +24,7 @@ export default function Home() {
       emailURL: "mailto:emma@andison.com",
     },
     {
-      imgSrc: "/Arman.png",
+      imgSrc: "/demo/Arman.png",
       imgAlt: "Arman",
       name: "Arman Turna",
       role: "Chief Strategy Officer",

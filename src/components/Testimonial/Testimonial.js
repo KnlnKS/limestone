@@ -4,7 +4,7 @@ import {Image} from "@chakra-ui/react";
 function Testimonial({title}) {
     return (
         <div className={styles.testimonial_container}>
-            <Image src={"/placement2.png"} alt={"Boston Consulting Group"}></Image>
+            <Image src={"/demo/placement2.png"} alt={"Boston Consulting Group"}></Image>
             <div className={styles.container_right}>
                 <div className={styles.placement_name}>Iain McKenzie</div>
                 <div className={styles.placement_desc}>
