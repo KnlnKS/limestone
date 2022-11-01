@@ -65,7 +65,7 @@ export default function Findus() {
                             ></Box>
                         </Heading>
                         <Text fontSize="2xl" fontWeight={"600"}>
-                            Limestone Capital is looking for Queens' hardest-working commerce
+                            Limestone Capital is looking for Queen’s hardest-working commerce
                             students with a passion for finance. Applicants should be:
                         </Text>
                         <OrderedList spacing={3}>
@@ -127,7 +127,7 @@ export default function Findus() {
                             ></Box>
                         </Heading>
                         <Text fontSize="2xl" fontWeight={"600"}>
-                            Our social media pages have all of Limestone's relevant info. Find them
+                            Our social media pages have all of Limestone’s relevant info. Find them
                             at:
                         </Text>
                         <Box
