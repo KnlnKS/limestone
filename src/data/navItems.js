@@ -5,7 +5,7 @@ const navItems = [
     },
     {
         label: "Team",
-        href: "#",
+        href: "team",
     },
     {
         label: "Pitches & Reports",
